@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoción de Canal de Anime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Únete a Nuestra Comunidad de Anime en Telegram!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#join">Únete al Canal</a></li>
+                <li><a href="#news">Noticias</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos [nombre del canal], un grupo dedicado a [breve descripción]. Nuestro objetivo es [mencionar el objetivo del canal]. Únete para [mencionar lo que ofrece el canal].</p>
+        </section>
+        
+        <section id="join">
+            <h2>Únete al Canal</h2>
+            <p>¡Haz clic en el botón de abajo para unirte a nuestro canal de Telegram!</p>
+            <a href="https://t.me/tu_canal" class="button" target="_blank">¡Únete Ahora!</a>
+        </section>
+        
+        <section id="news">
+            <h2>Noticias y Actualizaciones</h2>
+            <p>Aquí publicarás las últimas noticias y actualizaciones sobre el anime y el canal.</p>
+        </section>
+        
+        <section id="gallery">
+            <h2>Galería</h2>
+            <p>Muestra algunas imágenes llamativas aquí.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form action="mailto:tu_correo@ejemplo.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Nombre del Canal]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
